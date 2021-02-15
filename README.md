@@ -40,12 +40,13 @@ Use Lambda Proxy integration ((this will provide all event data))
 First test using AWS API Gateway, then test using Postman.
 
 Call signature is: 
+```
 https://{{apiId}}.execute-api.us-west-2.amazonaws.com/dev/groups
-*note:* apiid is obtained from API Gateway
+# *note:* apiid is obtained from API Gateway
 
 https://{{apiId}}.execute-api.us-west-2.amazonaws.com/dev/groups?limit=1
 
 https://{{apiId}}.execute-api.us-west-2.amazonaws.com/dev/groups?limit=1&nextKey="%7B%22id%22%3A%221%22%7D"
-*note:* nextKey should be obtained from the prevous http response
-
+# *note:* nextKey should be obtained from the prevous http response
+```
 
