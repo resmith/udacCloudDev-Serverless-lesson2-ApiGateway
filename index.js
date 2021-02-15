@@ -77,7 +77,7 @@ function getParameter(event, fieldName) {
       break;
     case 'nextKey':
       if (queryVal) {
-        return JSON.parse(decodeURIComponent(nextKeyStr))
+        return JSON.parse(decodeURIComponent(queryVal))
       } else {
         return undefined
       }
