@@ -9,3 +9,10 @@ Application that shows the use of pagination. It is called with a URL with the p
 
 
 
+## Testing
+Tested using the API Gateway Test and Postman.
+
+Call signature is: 
+https://{{apiId}}.execute-api.us-west-2.amazonaws.com/dev/groups
+
+apiid is obtained from API Gateway
