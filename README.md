@@ -2,7 +2,7 @@
 udacity - Cloud Developer -Serverless exercise 2 - Lambda function that utilizes ApiGateway & calls DynamoDb
 
 ## Purpose
-Application that shows the use of pagination. It is called with a URL with the parameters 'limit' and next key.
+Application that shows the use of pagination. This REST API is called with a query parameters 'limit' and nextKey. It then queries DynamoDB using the limit and nextKey. It provides the resulting dataset and the new nextKey.
 
 - Limit is the number of items to return
 - NextKey is the key of the first item of the next set of data to return
